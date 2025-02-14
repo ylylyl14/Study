@@ -10,8 +10,8 @@
 <h1>two page</h1>
 <%
 	String requestId=(String)request.getAttribute("id");
-String sessionId=(String)session.getAttribute("id");
-String applicationId=(String)application.getAttribute("id");
+	String sessionId=(String)session.getAttribute("id");
+	String applicationId=(String)application.getAttribute("id");
 %>
 request:<%=requestId %><br/>
 session:<%=sessionId %><br/>
